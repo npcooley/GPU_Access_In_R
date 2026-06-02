@@ -43,7 +43,7 @@ authors_short: First Author \emph{et al.}
 
 # Introduction
 
-The number of packages in the CRAN archive that are gpu based is 10 out of the total 23797, with most of them defunct and removed from CRAN. GPUMatrix, h2o4gpu, and GeneralizedUmatrixGPU still function while gputools, gpuR, rpud, nmfgpu4R were archived. One package permGPU functions in an OS-specific manner and another nmfgpu4r still actually builds but has warnings. Given the popularity of hardware acceleration outside of academia, and in non-academic settings, this lack of CRAN provided packages can be viewed as perplexing.
+The number of packages in the CRAN archive that are gpu based is only 10 out of the total 23797, with most of them defunct and removed from CRAN. [GPUMatrix](https://cran.r-project.org/web/packages/GPUmatrix/index.html), [h2o4gpu](https://cran.r-project.org/web/packages/h2o4gpu/index.html), and [GeneralizedUmatrixGPU](https://cran.r-project.org/web/packages/GeneralizedUmatrix/index.html) still function while gputools, gpuR, rpud, nmfgpu4R were archived. One package permGPU functions in an OS-specific manner and another nmfgpu4r still actually builds but has warnings. Given the popularity of hardware acceleration outside of academia, and in non-academic settings, this lack of CRAN provided packages can be viewed as perplexing.
 
 ## Motivation
 
