@@ -43,9 +43,20 @@ authors_short: First Author \emph{et al.}
 
 # Introduction
 
+The number of packages in the CRAN archive that are gpu based is 10 out of the total 23797, with most of them defunct and removed from CRAN. GPUMatrix, h2o4gpu, and GeneralizedUmatrixGPU still function while gputools, gpuR, rpud, nmfgpu4R were archived. One package permGPU functions in an OS-specific manner and another nmfgpu4r still actually builds but has warnings. Given the popularity of hardware acceleration outside of academia, and in non-academic settings, this lack of CRAN provided packages can be viewed as perplexing.
+
 ## Motivation
 
 The inaccessibility of hardware acceleration in the R language has been a missing feature that most R users have been content to live without. The rugged landscape of compute frameworks and hardware providers have also made it difficult for the R community to come together on a paradigm for access that would fit well within R as a language and R as a research ecosystem. Bringing hardware acceleration into R, particularly with CUDA and NVIDIA devices would improve the value of R as a skill for graduates leaving academia, increase the throughput and efficiency of research computing in R, and expand the versatility of R generally.
+
+## Results
+
+This hackathon project produced a series of observations about the current state of packages in CRAN that provide access to GPU compute. It leveraged this context to also improve documentation and usability the R packages ACFcuda, and cudatoolkit.
+
+| Package | Description |
+|---|---|
+| ACFcuda | Basic access to the CUDA api |
+| cudatoolkit | please add a description sebastian! |
 
 ## Meeting information
 
