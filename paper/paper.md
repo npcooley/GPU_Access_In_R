@@ -8,9 +8,11 @@ tags:
   - R
 authors:
   - name: James Dalgleish
+    orcid: 0000-0002-2053-8786
     affiliation: 1
     role: Author
   - name: Sebastian Fischer
+    orcid: 0000-0002-9609-3197
     affiliation: 2
     role: Author
   - name: Nicholas P Cooley
@@ -41,7 +43,9 @@ authors_short: First Author \emph{et al.}
 
 # Introduction
 
-As part of the BioHackathon Europe 2023, we here report...
+## Motivation
+
+The inaccessibility of hardware acceleration in the R language has been a missing feature that most R users have been content to live without. The rugged landscape of compute frameworks and hardware providers have also made it difficult for the R community to come together on a paradigm for access that would fit well within R as a language and R as a research ecosystem. Bringing hardware acceleration into R, particularly with CUDA and NVIDIA devices would improve the value of R as a skill for graduates leaving academia, increase the throughput and efficiency of research computing in R, and expand the versatility of R generally.
 
 ## Meeting information
 
