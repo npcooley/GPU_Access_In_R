@@ -1,33 +1,38 @@
 ---
-title: 'BioHackEU23 report: Template for the very long title'
-title_short: 'BioHackEU23 #26: unknown chemical substances'
+title: 'GPU Access in R'
+title_short: 'ACFcuda'
 tags:
-  - cheminformatics
-  - PubChem
-  - unknown chemical substances
+  - bioinformatics
+  - CUDA
+  - GPU
+  - R
 authors:
-  - name: First Author
+  - name: James Dalgleish
     affiliation: 1
-    role: Writing – original draft
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
+    role: Author
+  - name: Sebastian Fischer
     affiliation: 2
-    role: Conceptualization, Writing – review & editing
+    role: Author
+- name: Nicholas P Cooley
+    orcid: 0000-0002-6029-304X
+    affiliation: 3
+    role: Author
 affiliations:
-  - name: First Affiliation
+  - name: Oxford University
     index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
+  - name: LMU Munich
     index: 2
-date: 8 November 2023
+  - name: University of Limerick
+    index: 3
+date: '`r Sys.Date()`'
 cito-bibliography: paper.bib
-event: BH23EU
-biohackathon_name: "BioHackathon Europe 2023"
-biohackathon_url:   "https://biohackathon-europe.org/"
-biohackathon_location: "Barcelona, Spain, 2023"
-group: Project 26
+event: EuroBioc2026
+biohackathon_name: "Eurobioc 2026 Hackathon"
+biohackathon_url:   "https://bioconductor.org/developers/bioccommits/"
+biohackathon_location: "Turku, Finland, 2023"
+group: Group 1
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackrxiv/publication-template
+git_url: https://github.com/npcooley/GPU_Access_In_R
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: First Author \emph{et al.}
