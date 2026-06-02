@@ -13,7 +13,7 @@ authors:
   - name: Sebastian Fischer
     affiliation: 2
     role: Author
-- name: Nicholas P Cooley
+  - name: Nicholas P Cooley
     orcid: 0000-0002-6029-304X
     affiliation: 3
     role: Author
