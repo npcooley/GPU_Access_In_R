@@ -55,7 +55,7 @@ This hackathon project produced a series of observations about the current state
 
 | Package | Description |
 |---|---|
-| ACFcuda | Basic access to the CUDA api |
+| ACFcuda | Basic access to nvidia devices through the CUDA and runtime APIs |
 | cudatoolkit | please add a description sebastian! |
 
 ## Meeting information
